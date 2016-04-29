@@ -1,47 +1,86 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+#binaries
+*.exe
+*.dll
+*.dylib
+*.so
 
-# Folder config file
-Desktop.ini
+#cmake
+/cmbuild/
+/build/
+/build32/
+/build64/
+/release/
+/release32/
+/release64/
+/debug/
+/debug32/
+/debug64/
+/builds/
+*.o.d
+*.ninja
+.ninja*
+.dirstamp
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#xcode
+*.xcodeproj/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+#other stuff (windows stuff, qt moc stuff, etc)
+Release_MD/
+Release/
+Debug/
+x64/
+ipch/
+GeneratedFiles/
+.moc/
 
-# Windows shortcuts
-*.lnk
+/other/
 
-# =========================
-# Operating System Files
-# =========================
+#make stuff
+configure
+depcomp
+install-sh
+Makefile.in
+Makefile
 
-# OSX
-# =========================
-
+#random useless file stuff
+*.dmg
+*.app
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+.directory
+.hg
+.depend
+tags
+*.trace
+*.vsp
+*.psess
+*.swp
+*.dat
+*.clbin
+*.log
+*.tlog
+*.sdf
+*.opensdf
+*.xml
+*.ipch
+*.css
+*.xslt
+*.aps
+*.suo
+*.ncb
+*.user
+*.lo
+*.ilk
+*.la
+*.o
+*.obj
+*.pdb
+*.res
+*.manifest
+*.dep
+*.zip
+*.lnk
+*.chm
+*~
+.DS_Store
+*/.DS_Store
+*/**/.DS_Store
